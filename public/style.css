@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+     
+}
+
+
+#searchBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffb6c1;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(13, 150, 235, 0.923);
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#searchBar .form-control {
+    width: 60%;
+    max-width: 600px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchBar .btn-secondary {
+    margin-left: 10px;
+    padding: 10px 80px;
+    font-size: 16px;
+}
+
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 80px; 
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+.form-label {
+    color: #ff69b4;
+    font-size: 30px;
+}
+
+.form-control {
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+.btn-primary {
+    background-color: #ffb6c1;
+    border-color: #ff69b4;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.btn-primary:hover {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+}
+
+.btn-secondary {
+    background-color: #ffb6c1;
+    border-color: #ff69b4;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.btn-secondary:hover {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+}
+
+
+#displayArea {
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+
+#paginationControls {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+#paginationControls .page-item .page-link {
+    color: #ff69b4;
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#paginationControls .page-item .page-link:hover {
+    background-color: #ffb6c1;
+    border-color: #ff69b4;
+}
+.row {
+    justify-content: center;
+}
+
+.col-4,
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
